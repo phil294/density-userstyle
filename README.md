@@ -5,6 +5,8 @@ Example for `github.com`:
 
 ![demo img](./demo.jpg)
 
+([GitLab demo screens here](https://github.com/phil294/Gitlab-with-less-padding)
+
 ## Install
 
 Open the raw css file, or install from userstyles.world [here](https://userstyles.world/style/6295/density)
