@@ -5,7 +5,7 @@ Example for `github.com`:
 
 ![demo img](./demo.jpg)
 
-([GitLab demo screens here](https://github.com/phil294/Gitlab-with-less-padding)
+([GitLab demo screens here](https://github.com/phil294/Gitlab-with-less-padding))
 
 ## Install
 
