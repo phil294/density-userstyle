@@ -5,6 +5,10 @@ Example for `github.com`:
 
 ![demo img](./demo.jpg)
 
+## Install
+
+Open the raw css file, or install from userstyles.world [here](https://userstyles.world/style/6295/density)
+
 ## Currently supported:
 `github.com`, `gitlab.com`, `twitter.com`, `reddit.com`
 
