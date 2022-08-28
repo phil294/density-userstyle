@@ -6,7 +6,7 @@ Example for `github.com`:
 ![demo img](./demo.jpg)
 
 ## Currently supported:
-github.com, gitlab.com, twitter.com, reddit.com
+`github.com`, `gitlab.com`, `twitter.com`, `reddit.com`
 
 ## Contributing / About the CSS
 
