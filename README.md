@@ -1,5 +1,9 @@
 # density-userstyle
-Removing padding from text-centric websites
+Removing padding from text-centric websites.
+
+Example for `github.com`:
+
+![demo img](./demo.jpg)
 
 ## Currently supported:
 github.com, gitlab.com, twitter.com, reddit.com
