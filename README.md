@@ -9,7 +9,7 @@ Example for `github.com`:
 
 ## Install
 
-Open the raw css file, or install from userstyles.world [here](https://userstyles.world/style/6295/density)
+Open the raw css file, or [install from userstyles.world here](https://userstyles.world/style/6295/density). When installing from userstyles.world, it should auto-update.
 
 ## Currently supported:
 `github.com`, `gitlab.com`, `twitter.com`, `reddit.com`
