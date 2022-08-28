@@ -505,7 +505,6 @@
 		padding 2px
 	._31N0dvxfpsO6Ur5AKx4O5d
 		padding 0 10px
-		margin-top -20px
 	._1OVBBWLtHoSPfGCRaPzpTf._3nSp9cdBpqL13CqjdMr2L_
 		width unset
 	.wBtTDilkW_rtT2k5x3eie
@@ -518,3 +517,5 @@
 		max-width unset !important
 	._1npCwF50X2J7Wt82SZi6J0
 		width unset !important
+	a[href="/"] > svg
+		max-height 27px !important
