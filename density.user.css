@@ -1,0 +1,520 @@
+/* ==UserStyle==
+@name Density
+@namespace github.com/openstyles/stylus
+@version 0.0.1
+@preprocessor stylus
+@author phil294
+@description Reduces padding (spacing) on several common websites such as GitHub, Twitter, Reddit, ...
+==/UserStyle== */
+
+@-moz-document domain("github.com")
+	// Some of these may not be necessary anymore
+	.container-xl
+		max-width unset
+	.py-lg-3
+		padding 0 !important
+	.py-2
+		padding-top 3px !important
+		padding-bottom 3px !important
+	.pt-3
+		padding-top 4px !important
+	.p-4
+		padding 6px !important
+	.p-2
+		padding 2px !important
+	.pt-6
+		padding-top 10px !important
+	.pb-2
+		padding-bottom 2px !important
+	.mt-6
+		margin-top 10px !important
+	.mt-4
+		margin-top: 6px !important
+	.btn-sm, .social-count
+		padding 1px 4px
+	.btn
+		padding 1px 8px
+	.p-3
+		padding 4px !important
+	.mt-2
+		margin-top 2px !important
+	.py-md-3
+		padding-top 0 !important
+		padding-bottom 0 !important
+	.px-5
+		padding-right 8px !important
+		padding-left 8px !important
+	.mb-2
+		margin-bottom 2px !important
+	.mb-4
+		margin-bottom 6px !important
+	.mb-md-3
+		margin-bottom 4px !important
+	.mt-1
+		margin-top 1px !important
+	.mb-5
+		margin-bottom 8px !important
+	.mb-3
+		margin-bottom 4px !important
+	.mt-3
+		margin-top 4px !important
+	.mt-md-2
+		margin-top 2px !important
+	.my-md-2
+		margin-top 2px !important
+		margin-bottom 2px !important
+	.my-2
+		margin-top 2px !important
+		margin-bottom 2px !important
+	.UnderlineNav-item
+		padding 0 16px
+		line-height unset
+	.UnderlineNav
+		min-height 30px
+	p
+		margin-bottom 3px
+	.Box-header
+		padding 4px
+	.Box-body
+		padding 4px
+	.form-control, .form-select
+		padding 1px 3px
+	.subnav-search-input
+		padding-left 32px
+	.subnav-search-icon
+		top 4px
+	.subnav-item
+		padding 1px 4px
+	.protip
+		margin-top 5px
+	.paginate-container
+		margin-top 4px
+		margin-bottom 4px
+	.f1, h1
+		font-size 22px !important
+		font-weight bold
+	.gh-header-actions
+		margin 0 !important
+	.gh-header.issue .gh-header-meta
+		margin-bottom 4px
+	.gh-header-meta
+		padding-bottom 4px
+	.state, .State
+		padding 1px 6px
+	.pl-lg-5, .px-lg-5
+		padding-right 8px !important
+		padding-left 8px !important
+	.timeline-comment-header-text
+		padding-top 2px
+		padding-bottom 2px
+	.timeline-comment-action
+		padding 0
+	.comment-body
+		padding 4px 8px
+	.TimelineItem
+		margin-left 4px
+	.TimelineItem-avatar
+		left -56px
+	.gutter-lg
+		margin 0 !important
+	.gutter-lg>[class*=col-]
+		padding-right 4px !important
+		padding-left 4px !important
+	.discussion-sidebar-item
+		padding-top 4px
+	.discussion-sidebar-item+.discussion-sidebar-item
+		margin-top 4px
+	.TimelineItem
+		padding 4px 0
+	.timeline-comment-wrapper
+		margin-top 4px
+	.tabnav-tab
+		padding 2px 4px
+	.toolbar-item
+		padding 2px 4px
+	.markdown-body blockquote, .markdown-body details, .markdown-body dl, .markdown-body ol, .markdown-body p, .markdown-body pre, .markdown-body table, .markdown-body ul
+		margin-bottom 8px
+	.markdown-body .highlight pre, .markdown-body pre
+		padding 4px
+	.py-3
+		padding-top 4px !important
+		padding-bottom 4px !important
+	.merge-pr
+		margin 5px 0 0
+	.branch-action-item
+		padding 4px 4px 4px 44px
+	.markdown-body h1, .markdown-body h2, .markdown-body h3, .markdown-body h4, .markdown-body h5, .markdown-body h6
+		margin-top 8px
+		margin-bottom 4px
+	.input-sm
+		min-height unset
+	svg.octicon.octicon-mark-github
+		height 27px
+	.avatar-user
+		border-radius unset !important
+	.Header
+		padding 0
+	body
+		line-height unset
+	.f1-light
+		font-size unset !important
+
+		
+@-moz-document domain("gitlab.com"), regexp("https?://gitlab\\.[^.]+\\..+")
+	.sidebar-sub-level-items > li a
+		padding 2px 8px 2px 20px
+	.nav-sidebar li a
+		padding 6px 8px
+	.nav-sidebar
+		width 180px
+	.toggle-sidebar-button, .close-nav-button
+		width 180px
+	.page-with-contextual-sidebar
+		padding-left 180px
+	.content-wrapper .container-fluid, .content-wrapper .container-sm, .content-wrapper .container-md, .content-wrapper .container-lg, .content-wrapper .container-xl
+		padding 0 8px
+	.navbar-gitlab
+		height 26px
+		min-height unset
+	.content-wrapper
+		margin-top 26px
+	body
+		line-height 1
+	.breadcrumbs-container
+		padding-top 0
+		padding-bottom 0
+	.breadcrumbs
+		min-height unset
+	.nav-links:not(.quick-links) li:not(.md-header-toolbar) a, .nav-links:not(.quick-links) li:not(.md-header-toolbar) button
+		line-height 1
+		padding 0 10px
+	.btn, .project-buttons .stat-text
+		padding 0 10px
+	.row-content-block
+		padding 4px
+	.form-control, .search form
+		padding 0
+	.filtered-search-box .form-control, .filtered-search-box .search form, .search .filtered-search-box form
+		height unset
+	.board-labels-toggle-wrapper, .board-swimlanes-toggle-wrapper
+		height unset
+	.pt-3, .py-3
+		padding 0 !important
+	.board-title
+		padding 0
+	.gl-button.gl-button.btn-icon, .gl-button.gl-button.btn-block.btn-icon, .login-page input.gl-button.gl-button.btn-icon[type='submit']
+		padding 0
+	.p-3
+		padding 3px !important
+	.gl-mt-2
+		margin-top unset
+	.gl-mr-3
+		margin-top unset
+	.board-card-title
+		font-size 12px
+	.board-card-footer
+		position absolute
+		top 0
+		right 0
+		background rgba(255,255,255,0.8)
+	.boards-list
+		height unset
+	.context-header>a, .context-header>button
+		padding 0
+	.identicon.s40
+		line-height unset
+	.avatar-container.s40
+		min-height unset
+	.s40.avatar, .s40.avatar-container
+		height unset
+		width 30px
+	.group-home-panel, .project-home-panel
+		padding 0
+	.gl-mb-3
+		margin-bottom 0
+	.gl-banner
+		padding 0
+		height 65px
+		overflow auto
+	.gl-banner-content > *
+		margin 0
+	.tree-holder .add-to-tree
+		padding 1px
+	.breadcrumb.repo-breadcrumb
+		line-height unset
+	.commit
+		min-height unset !important
+	.clipboard-group .label, .clipboard-group .btn, .clipboard-group .project-buttons .stat-text, .project-buttons .clipboard-group .stat-text, .commit-sha-group .label, .commit-sha-group .btn, .commit-sha-group .project-buttons .stat-text, .project-buttons .commit-sha-group .stat-text
+		padding 1px
+	.info-well
+		margin 0
+	.tree-holder .nav-block
+		margin 5px
+	table.table tr td, .md table:not(.code) tr td, table.table tr th, .md table:not(.code) tr th
+		padding 3px
+	.container-limited.limit-container-width
+		max-width unset
+	.limit-container-width .detail-page-header, .limit-container-width .page-content-header, .limit-container-width .commit-box, .limit-container-width .info-well, .limit-container-width .commit-ci-menu, .limit-container-width .files-changed-inner, .limit-container-width .limited-header-width, .limit-container-width .limited-width-notes
+		max-width unset
+	.container-limited
+		max-width unset
+	.info-well .well-segment
+		padding 2px
+	.blob-content-holder
+		margin-top unset
+	.file-title-flex-parent, .file-holder .file-title-flex-parent
+		padding 0
+	ul.content-list>li
+		padding 3px 0
+	.dropdown-toggle, .dropdown-menu-toggle, .confidential-merge-request-fork-group .dropdown-toggle, .confidential-merge-request-fork-group .dropdown-menu-toggle
+		padding 2px
+	.dropdown-menu-toggle .fa-chevron-down, .dropdown-menu-toggle .fa-spinner
+		top 3px
+	.gl-button.gl-button, .gl-button.gl-button.btn-block, .login-page input.gl-button.gl-button[type='submit']
+		padding 2px
+	.form-control, .search form
+		height unset
+	.issues-list .issue
+		padding 3px 0 0 0
+	.manage-labels-list>li:not(.empty-message):not(.no-border)
+		padding 1px
+	.input-group-prepend .btn, .input-group-prepend .project-buttons .stat-text, .project-buttons .input-group-prepend .stat-text, .input-group-append .btn, .input-group-append .project-buttons .stat-text, .project-buttons .input-group-append .stat-text
+		padding 0
+	.labels-container
+		padding 0
+	.prioritized-labels
+		margin-bottom 0
+	.identicon.s64
+		font-size unset
+		line-height unset
+	.avatar-container.s64
+		min-height unset
+	.s64.avatar, .s64.avatar-container
+		height unset
+		max-height 32px
+		width auto
+	.group-home-panel .home-panel-avatar, .project-home-panel .home-panel-avatar
+		height unset
+	.project-repo-buttons .home-panel-action-button, .project-repo-buttons .project-action-button
+		margin 0
+	.project-repo-buttons .count-buttons
+		margin 0
+	.home-panel-title-row > *
+		flex-direction row !important
+	.home-panel-title
+		margin 0
+	.project-stats .nav .stat-text, .project-stats .nav .stat-link, .project-buttons .nav .stat-text, .project-buttons .nav .stat-link
+		padding 0
+	.project-stats .nav .btn, .project-stats .nav .project-buttons .stat-text, .project-buttons .project-stats .nav .stat-text, .project-buttons .nav .btn, .project-buttons .nav .stat-text
+		padding 0
+		margin-top 0
+	.event-item
+		padding 0 0 0 40px
+	.limit-container-width .issuable-details .detail-page-description, .limit-container-width .issuable-details .mr-source-target, .limit-container-width .issuable-details .mr-state-widget, .limit-container-width .issuable-details .merge-manually
+		max-width unset
+	.right-sidebar .block
+		padding 3px
+	.right-sidebar .title
+		margin-bottom 0
+	.issuable-details .title
+		margin-bottom 0
+	.gl-mb-6
+		margin-bottom 0
+	.detail-page-description
+		padding unset
+	.card-header
+		padding 0 16px
+	.gl-p-3-deprecated-no-really-do-not-use-me
+		padding 3px 16px
+	h4, .h4, h5, .h5, h6, .h6
+		margin-bottom unset
+	.pt-2, .py-2
+		padding-top 0 !important
+	.pb-2, .py-2
+		padding-bottom 0 !important
+	.note-wrapper
+		padding 4px
+	.notes.timeline > .timeline-entry
+		margin 8px 0
+	.md blockquote, .md .blockquote
+		padding 2px 12px
+		margin 4px 0
+	.md p
+		margin 0 0 6px
+	p
+		margin-bottom 0.5rem
+	.page-content-header
+		padding 0
+	.commit-box
+		padding 4px 0
+	.content-block
+		padding 0
+	.content-block.oneline-block
+		line-height 20px
+	.limit-container-width .issuable-details .detail-page-description, .limit-container-width .issuable-details .mr-source-target, .limit-container-width .issuable-details .mr-state-widget, .limit-container-width .issuable-details .merge-manually
+		max-width unset
+	.build-page .top-bar
+		height unset
+		min-height 21px
+		padding unset
+		top 26px
+	.gl-filtered-search-scrollable
+		padding 0
+	.gl-filtered-search-term-input, .gl-filtered-search-token-segment
+		height unset
+	.gl-toggle
+		height 1rem
+	.gl-toggle .toggle-icon
+		top unset
+	.gl-py-5
+		padding 0
+	.board-title
+		height unset
+	.gl-p-5
+		padding 4px
+	.board-card:not(:last-child)
+		margin-bottom 2px
+	.gl-px-3
+		padding 0 2px
+	.gl-tab-nav-item
+		padding 2px
+	ul.content-list.issuable-list>li, ul.content-list.todos-list>li, .card>.content-list>li
+		padding 3px 0 0 0
+	.md table:not(.code) tr td, .md table:not(.code) tr th, table.table:not(.gl-table) tr td, table.table:not(.gl-table) tr th
+		line-height unset
+		padding 3px
+	.project-last-commit
+		min-height unset
+
+@-moz-document domain("twitter.com")
+	header
+		flex-grow unset !important
+	.r-o96wvk
+		width 175px
+	*
+		font-size unset !important
+	main > div
+		width unset !important
+	.r-1ye8kvj
+		max-width unset
+	.r-1hycxz
+		width unset
+	.r-95jzfe, .r-1l7z4oj, .r-i023vh, .r-1h3ijdo, .r-5njf8e, .r-1f1sjgu, .r-ero68b, .r-ttdzmv
+		padding 2px !important
+		height unset !important
+		min-height unset
+	.r-1s2bzr4
+		margin-top 2px
+	.r-kzbkwu
+		padding-bottom 2px
+		
+@-moz-document domain("stackexchange.com"), domain("stackoverflow.com"), domain("askubuntu.com"), domain("superuser.com")
+	#mainbar, .mainbar
+		width calc(100% - 230px - var(--su-static24))
+	#sidebar
+		width 230px !important
+	.question table, .answer table
+		table-layout fixed
+		width 100%
+	.js-comment-form-layout td:last-child
+		width 115px
+	.js-comment-form-layout textarea
+		padding 0
+		width 100% !important
+	.comments > table > tfoot > tr:first-child > td:first-child, .comments > table > tbody > tr:first-child > td:first-child
+		width 15px
+	#content, .inner-content, .answer, #answers, .post-text, .comments, #answers-header, .post-editor, #wmd-preview, #questions, #header, .container
+		width initial !important
+		max-width initial !important
+	.wmd-ybutton-bar, .wmd-input, .grippie
+		width 100% !important
+	.grippie
+		background-position 50% -364px !important
+	.votecell
+		width 45px
+	.page
+		width unset
+	body
+		--su24 8px
+		padding-top 25px
+		--lh-md var(--lh-md)
+		--lh-lg var(--lh-md)
+		--lh-xl var(--lh-md)
+		--lh-xxl var(--lh-md)
+	.s-navigation .s-navigation--item
+		padding 2px 8px
+	.s-input, .s-textarea
+		padding unset
+	.s-topbar .s-topbar--content .s-topbar--item__unset, .s-btn, .s-btn.s-btn__xs
+		padding 2px 8px
+	.s-topbar
+		height unset
+	.mb8
+		margin-bottom 2px !important
+	.mb16
+		margin-bottom 4px !important
+	.mt16
+		margin-top 4px !important
+	#answers
+		padding-top unset
+	.space
+		padding-top 4px
+	.s-sidebarwidget--header
+		padding 2px
+	.s-sidebarwidget--item
+		margin 2px
+		padding 0 !important
+	.s-sidebarwidget--content, .s-sidebarwidget--content.s-sidebarwidget__items
+		padding 4px
+	.py16
+		padding-top 2px !important
+		padding-bottom 2px !important
+	#sidebar h4, .sidebar h4
+		margin-bottom unset
+	.mb24, .mb12
+		margin-bottom 4px !important
+	.mt8
+		margin-top 2px !important
+	.s-post-summary
+		padding 4px
+	.s-card
+		padding 4px
+	.subtabs a, .filter a
+		padding 2px
+	.user-info
+		padding 2px
+	.p12
+		padding 2px !important
+	.g8
+		gap 2px
+@-moz-document domain("reddit.com")
+	header form
+		height unset !important
+	a[role=button]
+		min-height unset !important
+		padding 2px 8px !important
+		min-width unset !important
+		width unset !important
+	header
+		height 27px !important
+	header *
+		height unset !important
+	#AppRouter-main-content
+		padding-top 27px
+	#TrendingPostsContainer
+		padding 2px
+	._31N0dvxfpsO6Ur5AKx4O5d
+		padding 0 10px
+		margin-top -20px
+	._1OVBBWLtHoSPfGCRaPzpTf._3nSp9cdBpqL13CqjdMr2L_
+		width unset
+	.wBtTDilkW_rtT2k5x3eie
+		margin-bottom 0
+		padding 0
+	.u35lf2ynn4jHsVUwPmNU
+		margin unset
+		max-width unset !important
+	*
+		max-width unset !important
+	._1npCwF50X2J7Wt82SZi6J0
+		width unset !important
