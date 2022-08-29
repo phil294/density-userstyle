@@ -393,12 +393,18 @@
 		width 175px
 	*
 		font-size unset !important
+	main
+		--sidebarWidth 250px
 	main > div
-		width unset !important
+		width 100% !important
+		@media(min-width 1018px)
+			width calc(100% - var(--sidebarWidth)) !important
+	div[data-testid=sidebarColumn]
+		width var(--sidebarWidth)
+		.r-1hycxz
+			width unset
 	.r-1ye8kvj
 		max-width unset
-	.r-1hycxz
-		width unset
 	.r-95jzfe, .r-1l7z4oj, .r-i023vh, .r-1h3ijdo, .r-5njf8e, .r-1f1sjgu, .r-ero68b, .r-ttdzmv
 		padding 2px !important
 		height unset !important
