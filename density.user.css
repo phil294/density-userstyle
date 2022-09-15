@@ -16,6 +16,12 @@
 	.py-2
 		padding-top 3px !important
 		padding-bottom 3px !important
+	.py-4
+		padding-top 6px !important
+		padding-bottom 6px !important
+	.py-6
+		padding-top 9px !important
+		padding-bottom 9px !important
 	.pt-3
 		padding-top 4px !important
 	.p-4
@@ -41,6 +47,9 @@
 	.py-md-3
 		padding-top 0 !important
 		padding-bottom 0 !important
+	.px-3
+		padding-right 4px !important
+		padding-left 4px !important
 	.px-5
 		padding-right 8px !important
 		padding-left 8px !important
@@ -66,6 +75,15 @@
 	.my-2
 		margin-top 2px !important
 		margin-bottom 2px !important
+	.my-3
+		margin-top 4px !important
+		margin-bottom 4px !important
+	.my-5
+		margin-top 5px !important
+		margin-bottom 5px !important
+	.my-6
+		margin-top 7px !important
+		margin-bottom 7px !important
 	.UnderlineNav-item
 		padding 0 16px
 		line-height unset
@@ -73,9 +91,7 @@
 		min-height 30px
 	p
 		margin-bottom 3px
-	.Box-header
-		padding 4px
-	.Box-body
+	.Box-header, .Box-body, .Box-row, .Box-footer
 		padding 4px
 	.form-control, .form-select
 		padding 1px 3px
@@ -120,6 +136,11 @@
 	.gutter-lg>[class*=col-]
 		padding-right 4px !important
 		padding-left 4px !important
+	.BorderGrid
+		margin-top: -4px !important
+	.BorderGrid-cell
+		padding-top 4px !important
+		padding-bottom 4px !important
 	.discussion-sidebar-item
 		padding-top 4px
 	.discussion-sidebar-item+.discussion-sidebar-item
