@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name Density
 @namespace github.com/openstyles/stylus
-@version 0.0.3
+@version 0.0.4
 @preprocessor stylus
 @author phil294
 @description Reduces padding (spacing) on several common websites such as GitHub, Twitter, Reddit, ...
@@ -546,3 +546,47 @@
 		width unset !important
 	a[href="/"] > svg
 		max-height 27px !important
+
+@-moz-document domain("wikipedia.org")
+	@media screen and (min-width: 1000px)
+		.mw-page-container-inner
+			grid-template-columns min-content minmax(0px, 1fr)
+	.vector-feature-page-tools-disabled #vector-toc-pinned-container .vector-toc::after, .vector-feature-page-tools-disabled #vector-toc-pinned-container .vector-toc, .vector-feature-page-tools-disabled .vector-main-menu
+		width unset
+		white-space nowrap
+		max-width 200px
+	.vector-feature-page-tools-disabled .vector-toc
+		padding unset
+	.mw-page-container
+		padding 0 10px
+	.vector-feature-page-tools-disabled #vector-toc-pinned-container .vector-toc, .vector-feature-page-tools-disabled #vector-toc-pinned-container .vector-toc::after
+		margin-left unset
+	.vector-feature-page-tools-disabled .vector-toc .vector-toc-text
+		padding unset
+	.vector-feature-page-tools-disabled .mw-page-container-inner
+		column-gap 10px
+	.vector-feature-page-tools-disabled .mw-content-container, .vector-feature-page-tools-disabled .mw-table-of-contents-container
+		max-width unset
+	.vector-toc-pinned #vector-toc-pinned-container
+		margin-top 0 !important
+		padding-top 0
+	.vector-search-box-vue .vector-search-box-input, .cdx-text-input__input
+		min-height 20px
+		line-height unset
+		padding-top unset
+		padding-bottom unset
+	.cdx-button
+		min-height unset
+		padding 2px
+	.mw-ui-icon-element.mw-ui-button
+		padding 0
+	.mw-header
+		padding 2px 0
+	.vector-menu-tabs .mw-list-item.vector-tab-noicon > a, .vector-page-toolbar-container .vector-menu-dropdown.vector-tab-noicon > a, .vector-menu-tabs .mw-list-item > .vector-menu-heading, .vector-page-toolbar-container .vector-menu-dropdown > .vector-menu-heading
+		padding 2px 0
+	.mw-body-content
+		margin-top 0
+	#contentSub:not(:empty), #contentSub2
+		margin 0
+	.mw-page-container
+		max-width unset
