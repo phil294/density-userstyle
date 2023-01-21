@@ -7,12 +7,14 @@ Example for `github.com`:
 
 ([GitLab demo screens here](https://github.com/phil294/Gitlab-with-less-padding))
 
+[wikipedia comparison](https://i.imgur.com/Ig8wBam.png)
+
 ## Install
 
 Open the raw css file, or [install from userstyles.world here](https://userstyles.world/style/6295/density). When installing from userstyles.world, it should auto-update.
 
 ## Currently supported:
-`github.com`, `gitlab.com`, `twitter.com`, `reddit.com`, `stackoverflow.com`/`stackexchange.com`/`askubuntu.com`/`superuser.com`
+`github.com`, `gitlab.com`, `twitter.com`, `reddit.com`, `stackoverflow.com`/`stackexchange.com`/`askubuntu.com`/`superuser.com`, `wikipedia.org`
 
 ## Contributing / About the CSS
 
