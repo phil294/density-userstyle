@@ -590,3 +590,29 @@
 		margin 0
 	.mw-page-container
 		max-width unset
+	.vector-feature-page-tools-disabled.vector-toc-pinned #mw-panel-toc
+		margin-left unset
+	.banner-container, .minerva-anon-talk-message, .minerva-header, .page-header-bar, .overlay-header, .content, .overlay-content, .content-unstyled, .pre-content, .post-content, #mw-content-text > form
+		max-width unset
+		width unset
+		padding 0 10px
+	.search-box .search
+		height unset
+		padding 0 2em
+	.minerva-user-navigation
+		min-height unset
+	.overlay-header, .minerva-header
+		height unset
+		border none
+	.header-container
+		padding 5px
+	.page-actions-menu__list
+		height unset
+	.page-heading
+		margin-bottom unset
+	.content li
+		margin-bottom unset
+	.toctitle
+		min-height unset
+	.content h2, .content h3, .content h4, .content h5, .content h6
+		padding unset
