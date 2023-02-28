@@ -616,3 +616,6 @@
 		min-height unset
 	.content h2, .content h3, .content h4, .content h5, .content h6
 		padding unset
+
+	.vector-toc-pinned #mw-panel-toc
+		margin-left unset !important
