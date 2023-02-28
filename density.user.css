@@ -8,7 +8,6 @@
 ==/UserStyle== */
 
 @-moz-document domain("github.com")
-	// Some of these may not be necessary anymore
 	.container-xl
 		max-width unset
 	.py-lg-3
@@ -179,6 +178,41 @@
 		line-height unset
 	.f1-light
 		font-size unset !important
+		
+	.search-with-dialog, .search-suggestions .suggestion-search-input-wrapper
+		height unset
+	.ActionList-content.ActionList-content--sizeMedium, .ActionList-sectionDivider:not(:empty), .ActionList
+		padding 2px
+	.styled-text-input.text-input-wrapper
+		min-height unset
+		
+	// new code navigation sidebar
+	.iKgeOj
+		padding 4px
+	.gDsSpw, .lcDvUO, .fpPkRT, .cBjyGj, .cBjyGj, .gmYBDN, .jQoUbB, .hJQJzH, .bvAyRr, .dLdsTv, .jzcBSx, .hABtJb, .guWvly, .jDhUMy, .react-directory-filename-column, .react-directory-row, .dhWHwh, .daQiTK, .hDFjzJ, .nozok, .hRWVSs, button, *[type=button], .bQpLqw, .iATux, .AlbGC
+		height unset !important
+		min-height unset !important
+		padding unset
+	.ddkzeB
+		padding 2px 4px
+	.gDgOj, .bsCgnj
+		margin 0 4px
+	.pBRZy, .container-lg
+		max-width unset
+	.ceTNXm, .ixJeXp, .cCbWKz, .dPQTGe
+		padding 4px
+	.HyzZt, .kjyeyR, .iviQdF, .EGBbx, .kOlDPa, .dAarci
+		margin 0
+	.react-directory-filename-column, .react-directory-row, .dpQVes
+		padding 2px 0
+	.eoDJUk
+		margin 4px 0
+	.bWkbZF, .iGkPaN
+		padding 0
+	.bPgMQv
+		gap 0
+	.ieAQnd
+		display flex
 
 		
 @-moz-document domain("gitlab.com"), regexp("https?://gitlab\\.[^.]+\\..+")
@@ -590,6 +624,7 @@
 		margin 0
 	.mw-page-container
 		max-width unset
+
 	.vector-feature-page-tools-disabled.vector-toc-pinned #mw-panel-toc
 		margin-left unset
 	.banner-container, .minerva-anon-talk-message, .minerva-header, .page-header-bar, .overlay-header, .content, .overlay-content, .content-unstyled, .pre-content, .post-content, #mw-content-text > form
