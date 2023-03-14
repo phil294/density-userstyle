@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name Density
 @namespace github.com/openstyles/stylus
-@version 0.0.6
+@version 0.0.7
 @preprocessor stylus
 @author phil294
 @description Reduces padding (spacing) on several common websites such as GitHub, Twitter, Reddit, ...
@@ -652,5 +652,5 @@
 	.content h2, .content h3, .content h4, .content h5, .content h6
 		padding unset
 
-	.vector-toc-pinned #mw-panel-toc
+	#mw-panel-toc
 		margin-left unset !important
