@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name Density
 @namespace github.com/openstyles/stylus
-@version 0.0.7
+@version 0.0.8
 @preprocessor stylus
 @author phil294
 @description Reduces padding (spacing) on several common websites such as GitHub, Twitter, Reddit, ...
@@ -582,9 +582,11 @@
 		max-height 27px !important
 
 @-moz-document domain("wikipedia.org")
+	/*
 	@media screen and (min-width: 1000px)
 		.mw-page-container-inner
 			grid-template-columns min-content minmax(0px, 1fr)
+	*/
 	.vector-feature-page-tools-disabled #vector-toc-pinned-container .vector-toc::after, .vector-feature-page-tools-disabled #vector-toc-pinned-container .vector-toc, .vector-feature-page-tools-disabled .vector-main-menu
 		width unset
 		white-space nowrap
@@ -654,3 +656,14 @@
 
 	#mw-panel-toc
 		margin-left unset !important
+
+	.vector-toc
+		padding 0 !important
+	#vector-toc-pinned-container
+		margin-top unset !important
+	.vector-toc .vector-pinnable-header, .vector-toc .vector-toc-text
+		padding 0 !important
+	.mw-page-container-inner
+		column-gap 10px
+	.mw-body
+		grid-template unset !important
