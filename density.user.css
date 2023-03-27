@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name Density
 @namespace github.com/openstyles/stylus
-@version 0.0.8
+@version 0.0.9
 @preprocessor stylus
 @author phil294
 @description Reduces padding (spacing) on several common websites such as GitHub, Twitter, Reddit, ...
@@ -213,6 +213,14 @@
 		gap 0
 	.ieAQnd
 		display flex
+		
+	.header-search-input
+		padding 0 !important
+	.py-1
+		padding 0 !important
+	header.py-3, header *, header *.py-3, header *.mt-3, header *.p-3
+		padding 0 !important
+		margin 0 !important
 
 		
 @-moz-document domain("gitlab.com"), regexp("https?://gitlab\\.[^.]+\\..+")
