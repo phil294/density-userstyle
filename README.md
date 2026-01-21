@@ -1,6 +1,8 @@
 # density-userstyle
 Removing padding from text-centric websites.
 
+> **NOT MAINTAINED ANYMORE**. It's a piec eof work that is never done and I don't use it anymore, as it's too likely to break things. With due time invested, this could change. Please contact me if you want me to put a redirect to your fork/project here.
+
 Example for `github.com`:
 
 ![demo img](./demo.jpg)
